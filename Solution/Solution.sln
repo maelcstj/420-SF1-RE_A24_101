@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours02_GitSyntaxe", "Cours02_GitSyntaxe\Cours02_GitSyntaxe.csproj", "{F87A60F5-E57B-4061-B921-0A8198FDB23D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F87A60F5-E57B-4061-B921-0A8198FDB23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87A60F5-E57B-4061-B921-0A8198FDB23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87A60F5-E57B-4061-B921-0A8198FDB23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87A60F5-E57B-4061-B921-0A8198FDB23D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8C3FD35-7738-4285-9730-1798B149C470}
+	EndGlobalSection
+EndGlobal
