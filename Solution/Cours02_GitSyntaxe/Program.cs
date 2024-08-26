@@ -1,4 +1,10 @@
-﻿namespace Cours02_GitSyntaxe
+﻿/*
+ * Auteur : Mael Perreault
+ * Date : 22 aout 2024
+ * Cours 02 - Git et syntaxe de base
+ */
+
+namespace Cours02_GitSyntaxe
 {
     internal class Program
     {
@@ -20,7 +26,12 @@
             Console.WriteLine(nombreEntier);
             Console.WriteLine(nombreVirgule);
             Console.WriteLine(unCaractere);
-            Console.WriteLine(chaineCaracters);
+            Console.WriteLine("Mon beau message :" + chaineCaracters + " ...");
+
+            // Exercice 1
+            // Moyenne de 3 nombres
+
+
         }
     }
 }
