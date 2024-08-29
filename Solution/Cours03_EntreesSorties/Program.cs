@@ -53,14 +53,16 @@ namespace Cours03_EntreesSorties
             double facteur = (double)nombre1 / nombre2; // 1.8 => 1
             Console.WriteLine(facteur);
 
+            //Ctrl+K,C - Commenter
+            //Ctrl+K,U - Uncommenter
             Console.Write("\n\n\nEntrer un nombre : ");
             string entree = Console.ReadLine();
             // '1' '2' '3' \0 => 123
             //int nombreEntre = int.Parse(entree);
             // '1' '.' '2' '3' '4' \0 => 1.234
-            double nombreEntre = double.Parse(entree, CultureInfo.InvariantCulture);
+            double nombreEntre = double.Parse(entree, CultureInfo.InvariantCulture); // 11.5 11,5 (windows fr)
             int nombreAjoute = 10;
-            Console.WriteLine($"Le nombre entre + {nombreAjoute,-12} = {nombreEntre + nombreAjoute:0.000}"  );
+            Console.WriteLine($"Le nombre entre + {nombreAjoute,-12} = {nombreEntre + nombreAjoute:0.000}");
 
         }
     }

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours02_GitSyntaxe", "Cours02_GitSyntaxe\Cours02_GitSyntaxe.csproj", "{F87A60F5-E57B-4061-B921-0A8198FDB23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours03_EntreesSorties", "Cours03_EntreesSorties\Cours03_EntreesSorties.csproj", "{65480AEC-A171-4057-A33F-0F4513179CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours03_EntreesSorties", "Cours03_EntreesSorties\Cours03_EntreesSorties.csproj", "{65480AEC-A171-4057-A33F-0F4513179CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours04_BooleensIfElse", "Cours04_BooleensIfElse\Cours04_BooleensIfElse.csproj", "{8F10B137-D905-409A-B521-8DEA3A27B16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65480AEC-A171-4057-A33F-0F4513179CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65480AEC-A171-4057-A33F-0F4513179CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65480AEC-A171-4057-A33F-0F4513179CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F10B137-D905-409A-B521-8DEA3A27B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F10B137-D905-409A-B521-8DEA3A27B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F10B137-D905-409A-B521-8DEA3A27B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F10B137-D905-409A-B521-8DEA3A27B16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
