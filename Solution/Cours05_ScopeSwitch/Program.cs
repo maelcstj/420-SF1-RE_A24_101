@@ -11,6 +11,7 @@ namespace Cours05_ScopeSwitch
         static void Main(string[] args)
         { // Scope 1 - debut
 
+            if (false)
             {
                 int a = 10;
                 int b = 20;
@@ -147,7 +148,11 @@ namespace Cours05_ScopeSwitch
                 }
             }
 
-            // Debut des exercices
+            // Exercice 01
+            // ....
+            { 
+                // Faire exercice 01
+            }
 
 
         } // Scope 1 - fin
