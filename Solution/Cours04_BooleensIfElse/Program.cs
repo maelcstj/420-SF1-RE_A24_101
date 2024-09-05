@@ -14,8 +14,8 @@ namespace Cours04_BooleensIfElse
 
             // Opérateurs comparaison
             // >, <, >=, <=, ==, !=
-            bool estVrai = true;
-            bool estFaux = false;
+            bool estVrai = true; // 1, -1, autres valeurs
+            bool estFaux = false; // 0
 
             Console.WriteLine(estVrai);
             Console.WriteLine(estFaux);
