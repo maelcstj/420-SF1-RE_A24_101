@@ -11,7 +11,7 @@ namespace Cours05_ScopeSwitch
         static void Main(string[] args)
         { // Scope 1 - debut
 
-            if (false)
+            //if (false)
             {
                 int a = 10;
                 int b = 20;

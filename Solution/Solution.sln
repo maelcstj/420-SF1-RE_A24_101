@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours03_EntreesSorties", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours04_BooleensIfElse", "Cours04_BooleensIfElse\Cours04_BooleensIfElse.csproj", "{8F10B137-D905-409A-B521-8DEA3A27B16C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours05_ScopeSwitch", "Cours05_ScopeSwitch\Cours05_ScopeSwitch.csproj", "{851ED712-9C21-4DCD-B0EE-312FB8407EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours05_ScopeSwitch", "Cours05_ScopeSwitch\Cours05_ScopeSwitch.csproj", "{851ED712-9C21-4DCD-B0EE-312FB8407EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours06_ConstantesModulo", "Cours06_ConstantesModulo\Cours06_ConstantesModulo.csproj", "{EEE0E537-E20F-478F-AB31-B5D7071145C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{851ED712-9C21-4DCD-B0EE-312FB8407EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851ED712-9C21-4DCD-B0EE-312FB8407EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851ED712-9C21-4DCD-B0EE-312FB8407EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE0E537-E20F-478F-AB31-B5D7071145C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE0E537-E20F-478F-AB31-B5D7071145C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE0E537-E20F-478F-AB31-B5D7071145C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE0E537-E20F-478F-AB31-B5D7071145C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
