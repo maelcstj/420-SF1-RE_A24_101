@@ -73,7 +73,8 @@ namespace Cours06_ConstantesModulo
                 // 8 / 2  = 4 reste 0 => nombre pair
                 // 5 / 2  = 2 reste 1 => nombre impair
                 int restePairImpair = entier % 2;
-                if (restePairImpair == 0) // reste 0 => pair
+                // if (restePairImpair == 0) // reste 0 => pair
+                if (entier % 2 == 0)
                 {
                     Console.WriteLine($"Le nombre {entier} est pair!");
                 }
@@ -82,6 +83,44 @@ namespace Cours06_ConstantesModulo
                     Console.WriteLine($"Le nombre {entier} est impair!");
                 }
             }
+
+            bool estValide = false;
+            if (!estValide)
+            {
+                Console.WriteLine("Erreur : ....");
+                return;
+            }
+
+            // Lire l'état de la lumiere (vert, jaune, rouge)
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+
+            // Lire ...
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+            Console.WriteLine("Entrer l'etat de la lumiere : ");
+
+            // TODO: Lire la vitesse de l'automobile
+
+            // TODO: Feu 1 - Vérifier vitesse 80km/h 2 sens
+            // TODO: Feu 1 - Vérifier vitesse 80km/h 2 sens
+            // TODO: Feu 1 - Vérifier vitesse 80km/h 2 sens
+            // TODO: Feu 1 - Vérifier vitesse 80km/h 2 sens
+
 
             // Exercices
         }
