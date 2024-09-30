@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours06_ConstantesModulo", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours10_WhileEtDoWhile", "Cours10_WhileEtDoWhile\Cours10_WhileEtDoWhile.csproj", "{4F6E65F6-CF80-4A86-9983-ED3FBC2E03CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours11_IncrementationFor", "Cours11_IncrementationFor\Cours11_IncrementationFor.csproj", "{43D3B34E-F61F-481A-8363-E85EAF45F2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours11_IncrementationFor", "Cours11_IncrementationFor\Cours11_IncrementationFor.csproj", "{43D3B34E-F61F-481A-8363-E85EAF45F2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours12_ExerciclesBoucles", "Cours12_ExerciclesBoucles\Cours12_ExerciclesBoucles.csproj", "{C1B283CB-D90E-4D77-8DC1-8AEE871A7D60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{43D3B34E-F61F-481A-8363-E85EAF45F2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D3B34E-F61F-481A-8363-E85EAF45F2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D3B34E-F61F-481A-8363-E85EAF45F2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B283CB-D90E-4D77-8DC1-8AEE871A7D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B283CB-D90E-4D77-8DC1-8AEE871A7D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B283CB-D90E-4D77-8DC1-8AEE871A7D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B283CB-D90E-4D77-8DC1-8AEE871A7D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
