@@ -36,20 +36,22 @@ namespace Cours18_Tableaux
                 Console.WriteLine($"{joueur4} : {pointsJoueur4}");
 
                 // Tableaux
-                // Permet d'avoir une seule variable
+                // Permet d'avoir une seule variable qui contient plusieurs valeurs
+
+                // Définir et initialiser le tableau demande de définir toutes les valeurs en même temps
                 string[] joueurs = new string[MAX_JOUEURS]
                 {
-                "Al",   // [0]
-                "Bob",  // [1]
-                "Carl", // [2]
-                "Dan",  // [3]
-                "Earl", // [4]
+                    "Al",   // [0]
+                    "Bob",  // [1]
+                    "Carl", // [2]
+                    "Dan",  // [3]
+                    "Earl", // [4]
                 };
 
                 // Définir un tableau sans l'initialiser mets la valeurs à la valeur de base (ex. 0, "", etc.)
                 int[] points = new int[MAX_JOUEURS]; // Tous les éléments sont initialisés à 0
 
-                // Modifier les valeurs du tableau avec []
+                // Modifier les valeurs du tableau avec une à une avec les crochets [index] à partir de [0]
                 points[2] = 10; // Carl
                 points[4] += 5; // Earl
 
