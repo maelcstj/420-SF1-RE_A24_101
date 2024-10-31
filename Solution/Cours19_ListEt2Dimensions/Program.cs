@@ -9,6 +9,9 @@ namespace Cours19_ListEt2Dimensions
     internal class Program
     {
         private const bool ACTIVER_THEORIE = true;
+        private const int MAX_JOUEURS = 4;
+        private const int MAX_MANCHES = 10;
+        private const int MAX_POINTAGE = 30;
 
         static void Main(string[] args)
         {
@@ -91,6 +94,62 @@ namespace Cours19_ListEt2Dimensions
                 {
                     Console.WriteLine($"{chaines[i]} : {doubles[i]} - {entiers[i]}");
                 }
+
+
+                // Tableaux multidimensionnels (2D array)
+                // Taille statique prédéfinie
+                int[,] pointages = new int[MAX_JOUEURS, MAX_MANCHES]
+                {
+                    { 10, 20, 30, 0, 0, 0, 0, 0, 0, 0 },
+                    { 2, 4, 6, 0, 0, 0, 0, 0, 0, 0 },
+                    { 3, 7, 11, 0, 0, 0, 0, 0, 0, 0 },
+                    { 9, 18, 27, 0, 0, 0, 0, 0, 0, 0 },
+                };
+
+                // Lire manche par manche, joueur par joueur
+                for (int manche = 0; manche < MAX_MANCHES; manche++)
+                {
+                    // Afficher le titre de la manche
+                    int numeroManche = manche + 1;
+                    Console.WriteLine($"Manche {numeroManche}");
+
+                    for (int joueur = 0; joueur < MAX_JOUEURS; joueur++)
+                    {
+                        // Lire le pointage valdie du joueur pour la manche
+                        int pointage;
+                        bool estPointageValide;
+                        do
+                        {
+                            int numeroJoueur = joueur + 1;
+                            Console.Write($"Joueur {numeroJoueur} : ");
+                            string entree = Console.ReadLine();
+                            estPointageValide = int.TryParse(entree, out pointage);
+
+                        } while (!estPointageValide || pointage < 0 || pointage > MAX_POINTAGE);
+
+                        // Écrire le pointage dans le tableau
+                        pointages[joueur, manche] = pointage;
+                    }
+                }
+
+                // Itérer 2 boucles 1) joueurs 2) manches
+                for (int joueur = 0; joueur < MAX_JOUEURS; joueur++) // 4
+                {
+                    // Afficher le joueur
+                    int numeroJoueur = joueur + 1;
+                    Console.Write($"Joueur {numeroJoueur} : ");
+
+                    // Afficher tous les pointages du joueur
+                    for (int manche = 0; manche < MAX_MANCHES; manche++) // 10
+                    {
+                        int pointage = pointages[joueur, manche];
+                        Console.Write($"{pointage,2} ");
+                    }
+
+                    // Sauter une ligne pour avoir chaque joueur sur une ligne différente
+                    Console.WriteLine();
+                }
+
             }
         }
     }
