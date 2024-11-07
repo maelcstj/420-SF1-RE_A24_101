@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours12_ExerciclesBoucles",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours18_Tableaux", "Cours18_Tableaux\Cours18_Tableaux.csproj", "{36905410-B9EB-4D52-ADB1-E7878873D12F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours19_ListEt2Dimensions", "Cours19_ListEt2Dimensions\Cours19_ListEt2Dimensions.csproj", "{A20F85C9-5A41-4830-A517-333E69B1CCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours19_ListEt2Dimensions", "Cours19_ListEt2Dimensions\Cours19_ListEt2Dimensions.csproj", "{A20F85C9-5A41-4830-A517-333E69B1CCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours20_Fonctions", "Cours20_Fonctions\Cours20_Fonctions.csproj", "{DC9AB753-833C-45D6-986B-9C51A2DBE6F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A20F85C9-5A41-4830-A517-333E69B1CCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20F85C9-5A41-4830-A517-333E69B1CCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20F85C9-5A41-4830-A517-333E69B1CCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9AB753-833C-45D6-986B-9C51A2DBE6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9AB753-833C-45D6-986B-9C51A2DBE6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9AB753-833C-45D6-986B-9C51A2DBE6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9AB753-833C-45D6-986B-9C51A2DBE6F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
